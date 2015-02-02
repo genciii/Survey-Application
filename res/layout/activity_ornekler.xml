@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ibemakale.MainActivity" >
+
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Mutlu musunuz?" />
+
+        <Button
+            android:id="@+id/ra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a1"
+            android:text="Mutluyum" />
+
+        <Button
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ra1"
+            android:text="Mutluyum" />
+
+        <Button
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r2"
+            android:text="Mutluyum" />
+
+        <Button
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r3"
+            android:text="Mutluyum" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/r4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Mutlu musunuz?" />
+
+        <RadioButton
+            android:id="@+id/rra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a2"
+            android:text="Mutluyum" />
+
+        <RadioButton
+            android:id="@+id/rr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rra1"
+            android:text="Mutluyum" />
+
+        <RadioButton
+            android:id="@+id/rr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rr2"
+            android:text="Mutluyum" />
+
+        <RadioButton
+            android:id="@+id/rr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rr3"
+            android:text="Mutluyum" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rr4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rr4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Mutlu musunuz?" />
+
+        <EditText
+            android:id="@+id/rrrrra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a3"
+            android:hint="&apos;Mutluyum&apos; gibi..." />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rrrrra1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrrrra1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Mutlu musunuz?" />
+
+        <Spinner
+            android:id="@+id/rrrra1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a4"
+            android:entries="@array/firildaksoru6"
+            android:prompt="@string/firildaksoru6" />
+    </RelativeLayout>
+
+</ScrollView>

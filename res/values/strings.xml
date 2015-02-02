@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobil Cihazlardaki Form Elemanlarının Form Doldurmadaki Performansa Etkisi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_radyo_dugmesi">RadyoDugmesi</string>
+    <string name="title_activity_button_dugmesi">Düğme ile Seçim</string>
+    <string name="title_activity_metin_dugmesi">Metin Girişi</string>
+    <string name="title_activity_firildak_dugmesi">Fırıldak ile Seçim</string>
+    <string name="firildaksoru">Renk Seciniz</string>
+
+    <string-array name="firildaksoru">
+        <item>Sarı</item>
+        <item>Kırımızı</item>
+        <item>Mavi</item>
+        <item>Yeşil</item>
+    </string-array>
+
+    <string name="firildaksoru2">Sayı Seçiniz</string>
+
+    <string-array name="firildaksoru2">
+        <item>10-...</item>
+        <item>1-5</item>
+        <item>0</item>
+        <item>5-10</item>
+    </string-array>
+
+    <string name="firildaksoru3">Ehliyet Tipini Seçiniz</string>
+
+    <string-array name="firildaksoru3">
+        <item>A2 ve B</item>
+        <item>A2</item>
+        <item>Hiçbiri</item>
+        <item>B</item>
+    </string-array>
+
+    <string name="firildaksoru4">Eğitim Düzeyinizi Seçiniz</string>
+
+    <string-array name="firildaksoru4">
+        <item>Orta Okul</item>
+        <item>Yüksek Lisans</item>
+        <item>Üniversite</item>
+        <item>Lise</item>
+    </string-array>
+
+    <string name="firildaksoru5">Hangi tadi tercih edersiniz? (Tatli, tuzli , eksi, aci)</string>
+
+    <string-array name="firildaksoru5">
+        <item>Tuzlu</item>
+        <item>Ekşi</item>
+        <item>Acı</item>
+        <item>Tatlı</item>
+    </string-array>
+
+    <string name="firildaksoru6">Mutlu musunuz?</string>
+
+    <string-array name="firildaksoru6">
+        <item>Mutluyum</item>
+        <item>Mutluyum</item>
+        <item>Mutluyum</item>
+        <item>Mutluyum</item>
+    </string-array>
+
+    <string name="title_activity_ornekler">Ornekler</string>
+
+</resources>

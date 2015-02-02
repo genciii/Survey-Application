@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ibemakale.MainActivity" >
+
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aşağıdaki Seçeneklerden Birini Seçerek Teste Başlayınız"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/a1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a1"
+            android:layout_marginTop="30dp"
+            android:text="Radyo Düğmesi Kullarak Cevaplama"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/a2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a2"
+            android:layout_marginTop="30dp"
+            android:text="Metin Girişi Kullanarak Cevaplama"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/a3"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a3"
+            android:layout_marginTop="30dp"
+            android:text="Fırıldak Kullanarak Cevaplama"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/a4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a4"
+            android:layout_marginTop="30dp"
+            android:text="Düğme Kullanarak Cevaplama"
+            android:textSize="20dp" />
+        
+                <Button
+            android:id="@+id/a6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a5"
+            android:layout_marginTop="50dp"
+            android:text="Örnek Giriş Ekranları"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</ScrollView>

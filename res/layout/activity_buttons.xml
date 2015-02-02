@@ -1,0 +1,257 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ibemakale.MainActivity" >
+
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Hangi Ehliyet Türüne Sahipsiniz?" />
+
+        <Button
+            android:id="@+id/ra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a1"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ra1"
+            android:text="Hiç birine" />
+
+        <Button
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r2"
+            android:text="B ve A2" />
+
+        <Button
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r3"
+            android:text="B" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/r4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Hangi tadi tercih edersiniz? (Tatli, tuzli , eksi, aci)" />
+
+        <Button
+            android:id="@+id/rra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a2"
+            android:text="Acı" />
+
+        <Button
+            android:id="@+id/rr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rra1"
+            android:text="Ekşi" />
+
+        <Button
+            android:id="@+id/rr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rr2"
+            android:text="Tatlı" />
+
+        <Button
+            android:id="@+id/rr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rr3"
+            android:text="Tuzlu" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rr4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rr4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="En sevdiğiniz renk hangisidir? (Kirmizi, Mavi, Sari, Yesil)" />
+
+        <Button
+            android:id="@+id/rrra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a3"
+            android:text="yeşil" />
+
+        <Button
+            android:id="@+id/rrr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrra1"
+            android:text="mavi" />
+
+        <Button
+            android:id="@+id/rrr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrr2"
+            android:text="sarı" />
+
+        <Button
+            android:id="@+id/rrr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrr3"
+            android:text="kırmızı" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rrr4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrr4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Eğitim Durumunuz Nedir?" />
+
+        <Button
+            android:id="@+id/rrrra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a4"
+            android:text="Yüksek Lisans" />
+
+        <Button
+            android:id="@+id/rrrr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrrra1"
+            android:text="Lise" />
+
+        <Button
+            android:id="@+id/rrrr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrrr2"
+            android:text="Orta Okul" />
+
+        <Button
+            android:id="@+id/rrrr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrrr3"
+            android:text="Üniversite" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rrrr4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" >
+        </View>
+
+        <TextView
+            android:id="@+id/a5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrrr4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Kaç defa internet üzerinden alış veriş yaptınız?" />
+
+        <Button
+            android:id="@+id/rrrrra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a5"
+            android:text="1-5" />
+
+        <Button
+            android:id="@+id/rrrrr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrrrra1"
+            android:text="5-10" />
+
+        <Button
+            android:id="@+id/rrrrr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrrrr2"
+            android:text="10-..." />
+
+        <Button
+            android:id="@+id/rrrrr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrrrr3"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/rq2"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/rrrrr4"
+            android:layout_marginTop="40dp"
+            android:text="TESTI BITIR!!!" />
+
+        <Chronometer
+            android:id="@+id/stopwatch"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@+id/rq2"
+            android:layout_weight="0"
+            android:paddingBottom="20dip"
+            android:paddingTop="20dip" />
+
+        <Button
+            android:id="@+id/rq3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stopwatch"
+            android:layout_marginTop="40dp"
+            android:text="S" />
+    </RelativeLayout>
+
+</ScrollView>

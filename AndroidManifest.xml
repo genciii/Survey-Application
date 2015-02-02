@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ibemakale"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RadyoDugmesi"
+            android:label="@string/title_activity_radyo_dugmesi" >
+        </activity>
+        <activity
+            android:name=".ButtonDugmesi"
+            android:label="@string/title_activity_button_dugmesi" >
+        </activity>
+        <activity
+            android:name=".MetinDugmesi"
+            android:label="@string/title_activity_metin_dugmesi" >
+        </activity>
+        <activity
+            android:name=".FirildakDugmesi"
+            android:label="@string/title_activity_firildak_dugmesi" >
+        </activity>
+        <activity
+            android:name=".Ornekler"
+            android:label="@string/title_activity_ornekler" >
+        </activity>
+    </application>
+
+</manifest>
